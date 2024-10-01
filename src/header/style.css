@@ -205,3 +205,7 @@
     margin-right: 10px;
     text-decoration: none;
 }
+.logo-img {
+    width: 50px;  /* Adjust size as needed */
+    height: auto;
+}

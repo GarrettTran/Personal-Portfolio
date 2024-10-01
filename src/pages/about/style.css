@@ -20,7 +20,7 @@
 
 .progress {
     height: 5px;
-    background: var(--secondary);
+    background: var(--bs-gray);
     border-radius: 0;
     box-shadow: none;
     margin-bottom: 30px;
@@ -97,4 +97,16 @@
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
     }
+}
+.tech-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tech-logo {
+    width: 100px; /* Adjust size as needed */
+    height: 100%;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
